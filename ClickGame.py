@@ -2,14 +2,14 @@
 
 import turtle
 
-wn = turtle.screen()
+wn = turtle.Screen()
 wn.title("CLICK THE PONY")
 wn.bgcolor("white")
 
-wn.register_shape("c:\Users\eholzer2\Documents\03Einsatzstelle_CAE_VV_IT_FoE\PythonExercises\MustangLogo.png")
+wn.register_shape("MustangLogo.gif")
 
 pony = turtle.Turtle()
-pony.shape("c:\Users\eholzer2\Documents\03Einsatzstelle_CAE_VV_IT_FoE\PythonExercises\MustangLogo.png")
+pony.shape("MustangLogo.gif")
 pony.speed(0)
 
 clicks = 0
